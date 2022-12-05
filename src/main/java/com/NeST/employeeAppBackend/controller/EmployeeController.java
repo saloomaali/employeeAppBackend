@@ -11,4 +11,8 @@ public class EmployeeController {
     public String EmployeeWelcome(){
         return "welcome to employee website";
     }
+    @GetMapping("/add")
+    public String EmployeeAdd(){
+        return "this is the employee add page";
+    }
 }
